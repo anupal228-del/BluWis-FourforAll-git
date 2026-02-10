@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BluWis</title>
+  <link rel="icon" type="image/x-icon" href="/assets/brand/brain-logo.png" />
+
+  <!-- Google Fonts: Montserrat -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  <!--  style="background: linear-gradient(to right, #2f75ff, #063ec0)" -->
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top navbar-autohide bg-white shadow-sm" data-bs-theme="light">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="/assets/brand/bluwis-logo-new.png" alt="BluWis logo" width="202.5" height="45" />
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav fw-semibold align-items-lg-center">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/resources" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Services
+            </a>
+
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li>
+                <a class="dropdown-item" href="/#services">Plan</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/#services">Build</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/#services">Run</a>
+              </li>
+            </ul>
+          </li>
+
+          </li>
+
+          <!-- Resources -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/resources" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Resources
+            </a>
+
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li>
+                <a class="dropdown-item" href="/blog">Blog</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/events">Events</a>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/resources" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Company
+            </a>
+
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li>
+                <a class="dropdown-item" href="/about">About</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/leadership">Leadership</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/careers">Careers</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/contact">Contact</a>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <section class="ew-hero ew-hero--compact ew-hero--split"
+        style="--hero-image: url('/assets/stock/boat_row2.jpg'); --accent: #2F75FF;">
+        <div class="ew-hero__media" aria-hidden="true"></div>
+
+        <div class="container ew-hero__container">
+            <div class="ew-hero__panel">
+                <div class="ew-hero__eyebrow">Leadership</div>
+
+                <h1 class="ew-hero__title">Built by operators. Driven by outcomes.</h1>
+
+                <p class="ew-hero__text">
+                    Meet the team guiding strategy, delivery excellence, and innovation.</p>
+                </p>
+
+                <div class="ew-hero__actions">
+                    <a href="#leadership-team" class="btn btn-primary ew-hero__btn">Meet the Team</a>
+                    <!-- Optional secondary action -->
+                    <!-- <a href="/about" class="btn btn-outline-primary ew-hero__btn ew-hero__btn--secondary">Learn More</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Team -->
+    <section id="leadership-team" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="fw-bold display-5 mb-5 text-start">
+                Executive Leadership Team
+            </h2>
+            <div class="row g-4 justify-content-center">
+                <!-- Prabhakar Prasad -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card leader-card text-center shadow-sm">
+                        <div class="leader-img-wrapper mx-auto mt-4">
+                            <img src="assets/headshots/prabhakar_headshot.png" alt="Prabhakar Prasad"
+                                class="leader-img rounded-circle" />
+                        </div>
+                        <div class="card-body">
+                            <h5 class="leader-name mb-1">Prabhakar Prasad</h5>
+                            <p class="leader-role">Chief Executive Officer</p>
+                            <button class="btn leader-bio-button w-100 mt-3" data-bs-toggle="modal"
+                                data-bs-target="#bio1Modal">
+                                View Bio
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rajesh Raj -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card leader-card text-center shadow-sm">
+                        <div class="leader-img-wrapper mx-auto mt-4">
+                            <img src="assets/headshots/rajesh_headshot.png" alt="Rajesh Raj"
+                                class="leader-img rounded-circle" />
+                        </div>
+                        <div class="card-body">
+                            <h5 class="leader-name mb-1">Rajesh Raj</h5>
+                            <p class="leader-role">Chief Revenue Officer</p>
+                            <button class="btn leader-bio-button w-100 mt-3" data-bs-toggle="modal"
+                                data-bs-target="#bio2Modal">
+                                View Bio
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- R. Ramki -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card leader-card text-center shadow-sm">
+                        <div class="leader-img-wrapper mx-auto mt-4">
+                            <img src="assets/headshots/ramki_headshot.png" alt="R. Ramki"
+                                class="leader-img rounded-circle" />
+                        </div>
+                        <div class="card-body">
+                            <h5 class="leader-name mb-1">R. Ramki</h5>
+                            <p class="leader-role">Chief Delivery Officer</p>
+                            <button class="btn leader-bio-button w-100 mt-3" data-bs-toggle="modal"
+                                data-bs-target="#bio3Modal">
+                                View Bio
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Meghana Dhall -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card leader-card text-center shadow-sm">
+                        <div class="leader-img-wrapper mx-auto mt-4">
+                            <img src="assets/headshots/meghana_headshot.png" alt="Meghana Dhall"
+                                class="leader-img rounded-circle" />
+                        </div>
+                        <div class="card-body">
+                            <h5 class="leader-name mb-1">Meghana Dhall</h5>
+                            <p class="leader-role">Chief Marketing Officer</p>
+                            <button class="btn leader-bio-button w-100 mt-3" data-bs-toggle="modal"
+                                data-bs-target="#bio4Modal">
+                                View Bio
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sunil Shetty -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card leader-card text-center shadow-sm">
+                        <div class="leader-img-wrapper mx-auto mt-4">
+                            <img src="assets/headshots/sunil_headshot.png" alt="Sunil Shetty"
+                                class="leader-img rounded-circle" />
+                        </div>
+                        <div class="card-body">
+                            <h5 class="leader-name mb-1">Sunil Shetty</h5>
+                            <p class="leader-role">Managing Director, APJ</p>
+                            <button class="btn leader-bio-button w-100 mt-3" data-bs-toggle="modal"
+                                data-bs-target="#bio5Modal">
+                                View Bio
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Modals -->
+        <!-- Bio1 Modal -->
+        <div class="modal fade" id="bio1Modal" tabindex="-1" aria-labelledby="bio1ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="bio1ModalLabel">
+                            <!-- Prabhakar Prasad -->
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-start">
+                        <div class="leader-img-wrapper mx-auto mt-4">
+                            <img src="assets/headshots/prabhakar_headshot.png" alt="Prabhakar Prasad"
+                                class="leader-img rounded-circle" />
+                        </div>
+                        <h5 class="leader-name mb-1">Prabhakar Prasad</h5>
+                        <p class="leader-role">Chief Executive Officer</p>
+                        <p>Prabhakar Prasad is the Founder and Chief Executive Officer of BluWis and a serial entrepreneur with over 30 years of global leadership experience across North America, Europe, and Asia. He brings deep expertise in global P&L management, cloud and digital transformation, and large-scale system integration across industries.</p>
+                        <p>Prabhakar has a proven track record of entering new markets, scaling net-new businesses, and expanding strategic client relationships. He played a pivotal role in leveraging the cloud transformation wave to position IBM as a leading AWS Consulting Partner.</p>
+                        <p>Previously, he founded Intrigo, an entrepreneurial venture that became SAP’s leading cloud partner in Supply Chain Management and Procurement, and successfully led the company through its acquisition by Accenture.</p>
+                        <p>His strengths span business inception and growth, C-suite engagment, go-to-market (GTM) execution, delivery leadership, and ecosystem partnership development.</p>
+                        <p class="text-center"><i>“Today’s enterprises need more than a technical upgrade—they need a
+                                partner who understands business ambition and builds SAP landscapes to support it. We’re
+                                here to deliver that partnership.”</i><br> <strong>Prabhakar Prasad, Founder and CEO
+                                BluWis</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bio2 Modal -->
+        <div class="modal fade" id="bio2Modal" tabindex="-1" aria-labelledby="bio2ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <!-- <h5 class="modal-title" id="bio2ModalLabel">Rajesh Raj</h5> -->
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-start">
+                        <div class="leader-img-wrapper mx-auto mt-4">
+                            <img src="assets/headshots/rajesh_headshot.png" alt="Rajesh Raj"
+                                class="leader-img rounded-circle" />
+                        </div>
+                        <h5 class="leader-name mb-1">Rajesh Raj</h5>
+                        <p class="leader-role">Chief Revenue Officer</p>
+                        <p>Rajesh Raj is the Founder and Chief Revenue Officer of BluWis, bringing over 25 years of global leadership experience across enterprise software, the SAP ecosystem, and cloud innovation. A seasoned technology executive and entrepreneur, he has a proven track record of building, scaling, and leading high-growth businesses.</p>
+                        <p>Prior to BluWis, Rajesh built a North America–based enterprise technology business from inception to over $50 million in revenue within two years. During this time, he established strategic OEM partnerships, led global customer-facing functions, and secured one of the largest SAP-led transformation programs for a global Oil & Gas enterprise.</p>
+                        <p>Earlier in his career, Rajesh held senior leadership roles at IBM, SAP, and AWS, where he drove revenue growth, customer success, and large-scale enterprise transformation initiatives. He is also an active investor and board advisor to early- and growth-stage startups.p>
+                        <p>At BluWis, Rajesh leads global revenue strategy, accelerates growth through innovation, and builds strategic partnerships to deliver measurable customer outcomes.</p>
+                        <p class="text-center"><i>“Customers don’t need vendors. They need partners who understand their business, earn their trust, and execute with precision.”</i><br> <strong> Rajesh Raj, Founder & CRO, BluWis</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bio3 Modal -->
+        <div class="modal fade" id="bio3Modal" tabindex="-1" aria-labelledby="bio3ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <!-- <h5 class="modal-title" id="bio3ModalLabel">R. Ramki</h5> -->
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-start">
+                        <div class="leader-img-wrapper mx-auto mt-4">
+                            <img src="assets/headshots/ramki_headshot.png" alt="R. Ramki"
+                                class="leader-img rounded-circle" />
+                        </div>
+                        <h5 class="leader-name mb-1">R. Ramki</h5>
+                        <p class="leader-role">Chief Delivery Officer</p>
+                        <p>R. Ramakrishnan (Ramki) is the Chief Delivery Officer at BluWis, bringing over 30 years of experience leading enterprise application delivery and large-scale business transformation programs. With a strong foundation in Manufacturing, Project Management, and Business Process Re-engineering, he has advised organizations across Manufacturing, Energy & Resources, Professional Services, Public Sector, and Defense.</p>
+                        <p>Ramki’s career spans hands-on operations at Tata Steel and senior leadership roles at SAP, IBM, and Oracle across India and the APAC region. He is widely respected for delivering complex transformation initiatives while building strong, trust-based relationships with customers and partners.</p>
+                        <p>At BluWis, Ramki leads delivery and customer success, focused on scalable delivery models, measurable outcomes, and a culture rooted in excellence, agility, and trust.</p>
+                        <p>Ramki is based in Bangalore, India. When he’s not driving delivery outcomes, you’ll likely find him enjoying some of his college-time passions — music, quizzing, contract bridge, and food.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bio4 Modal -->
+        <div class="modal fade" id="bio4Modal" tabindex="-1" aria-labelledby="bio4ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <!-- <h5 class="modal-title" id="bio4ModalLabel">Meghana Dhall</h5> -->
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-start">
+                        <div class="leader-img-wrapper mx-auto mt-4">
+                            <img src="assets/headshots/meghana_headshot.png" alt="Meghana Dhall"
+                                class="leader-img rounded-circle" />
+                        </div>
+                        <h5 class="leader-name mb-1">Meghana Dhall</h5>
+                        <p class="leader-role">Chief Marketing Officer</p>
+                        <p>Meghana brings over 20 years of strategic marketing and leadership experience, with a proven track record of driving growth and brand transformation across global enterprises. As Chief Marketing Officer at BluWis, she leads global marketing strategy, brand positioning, and demand generation to establish BluWis as a trusted partner in the SAP and enterprise technology ecosystem.</p>
+                        <p>Prior to BluWis, Meghana held senior marketing leadership roles at Alcon, where she led innovation initiatives, product launches, and go-to-market strategy. Earlier in her career, she held progressive marketing roles at Essilor of America and the Essilor Group, driving category development, brand management, multi-channel marketing programs, and sustained commercial growth.</p>
+                        <p>As we look toward what’s next in the world of digital transformation, Meghana remains passionate about shaping a brand that’s bold, human, and relentlessly customer-centric and creating strong go-to-market strategies with a laser focus on measurable business impact.</p>
+                        <p>Meghana holds an MBA from Olin Business School and is passionate about building bold, human, and customer-centric brands that deliver measurable business impact.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bio5 Modal -->
+        <div class="modal fade" id="bio5Modal" tabindex="-1" aria-labelledby="bio5ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <!-- <h5 class="modal-title" id="bio5ModalLabel">Sunil Shetty</h5> -->
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-start">
+                        <div class="leader-img-wrapper mx-auto mt-4">
+                            <img src="assets/headshots/sunil_headshot.png" alt="Sunil Shetty"
+                                class="leader-img rounded-circle" />
+                        </div>
+                        <h5 class="leader-name mb-1">Sunil Shetty</h5>
+                        <p class="leader-role">Managing Director, APJ</p>
+                        <p>Sunil Shetty is the Managing Director for the APJ region and a member of the Executive Leadership Team at BluWis. He is an accomplished enterprise sales leader with over two decades of experience helping organizations solve complex business challenges through technology.</p>
+                        <p>Sunil spent more than 17 years with SAP across India and Malaysia, where he held senior roles in Sales and Consulting. He has led high-impact engagements across Large Enterprise, Mid-Market, and Public Sector customers, delivering complex, outcome-driven solutions across multiple industries. Known as a trusted advisor and relationship builder, Sunil has established strong executive partnerships that drive long-term business value.</p>
+                        <p>At BluWis, Sunil is focused on strengthening customer relationships and expanding the company’s presence across the APJ region, supporting clients as they navigate large-scale transformation and growth.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+<!-- Leadership Principles (EW style) -->
+<section id="principles" class="ew-section ew-section--light">
+  <div class="container">
+
+    <!-- Header (image + copy) -->
+    <div class="row align-items-center g-4 mb-4">
+      <!-- Image: first on mobile, right on desktop -->
+      <div class="col-lg-4 order-1 order-lg-2">
+        <img
+          src="assets/stock/paper-boats.jpg"
+          alt="Leadership principles"
+          class="ew-media img-fluid"
+          loading="lazy"
+        />
+      </div>
+
+      <!-- Copy -->
+      <div class="col-lg-8 order-2 order-lg-1">
+        <div class="ew-kicker">PRINCIPLES</div>
+        <h2 class="fw-bold display-5 mb-2">Our Leadership Principles</h2>
+        <p class="lead text-muted mb-0">
+          Timeless values that guide every decision, hire, and strategy we pursue.
+        </p>
+      </div>
+    </div>
+
+    <!-- Principles grid -->
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="ew-surface h-100 text-center p-4">
+          <i class="bi bi-people-fill fs-2 text-primary"></i>
+          <h5 class="fw-bold mt-3 mb-2">Customer Obsession</h5>
+          <p class="text-muted mb-0">
+            We are relentlessly driven to exceed client expectations at every touchpoint.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="ew-surface h-100 text-center p-4">
+          <i class="bi bi-shield-fill-check fs-2 text-primary"></i>
+          <h5 class="fw-bold mt-3 mb-2">Transparency &amp; Integrity</h5>
+          <p class="text-muted mb-0">
+            We foster open communication and make ethical decisions that serve the greater good.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="ew-surface h-100 text-center p-4">
+          <i class="bi bi-gem fs-2 text-primary"></i>
+          <h5 class="fw-bold mt-3 mb-2">Commitment Over Profit</h5>
+          <p class="text-muted mb-0">
+            We deliver long-term value by focusing on strong partnerships—not short-term wins.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="ew-surface h-100 text-center p-4">
+          <i class="bi bi-person-fill-add fs-2 text-primary"></i>
+          <h5 class="fw-bold mt-3 mb-2">Hire and Develop the Best</h5>
+          <p class="text-muted mb-0">
+            We cultivate a culture of excellence, learning, and leadership.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="ew-surface h-100 text-center p-4">
+          <i class="bi bi-lightbulb-fill fs-2 text-primary"></i>
+          <h5 class="fw-bold mt-3 mb-2">Encourage Curiosity, Solve Problems</h5>
+          <p class="text-muted mb-0">
+            We empower teams to challenge the status quo and innovate with impact.
+          </p>
+        </div>
+      </div>
+
+      <!-- Optional: keeps the 5th card centered on large screens without custom CSS -->
+      <div class="col-lg-4 d-none d-lg-block"></div>
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- Scroll to Top Button -->
+<a href="#" class="btn btn-primary btn-lg rounded-circle scroll-to-top" aria-label="Scroll to top">
+  <i class="bi bi-arrow-up"></i>
+</a>
+
+<footer class="footer-gradient text-white">
+  <div class="container py-5">
+
+    <!-- Top row (centered like reference) -->
+    <div class="row g-4 align-items-start text-center text-lg-center">
+      <!-- Services -->
+      <div class="col-6 col-lg-2">
+        <h6 class="footer-title">Services</h6>
+        <ul class="list-unstyled footer-links mb-0">
+          <li><a href="/#services">Plan</a></li>
+          <li><a href="/#services">Build</a></li>
+          <li><a href="/#services">Run</a></li>
+        </ul>
+      </div>
+
+      <!-- Industries (no links yet) -->
+      <div class="col-6 col-lg-2">
+        <h6 class="footer-title">Industries</h6>
+        <ul class="list-unstyled footer-links mb-0">
+          <li><span>Oil &amp; Gas</span></li>
+          <li><span>CPG</span></li>
+          <li><span>Manufacturing</span></li>
+        </ul>
+      </div>
+
+      <!-- Resources -->
+      <div class="col-6 col-lg-2">
+        <h6 class="footer-title">Resources</h6>
+        <ul class="list-unstyled footer-links mb-0">
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/events">Events</a></li>
+        </ul>
+      </div>
+
+      <!-- Resources -->
+      <div class="col-6 col-lg-2">
+        <h6 class="footer-title">Company</h6>
+        <ul class="list-unstyled footer-links mb-0">
+          <li><a href="/about">About</a></li>
+          <li><a href="/leadership">Leadership</a></li>
+          <li><a href="/careers">Careers</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-12 col-lg-4">
+        <h6 class="footer-title">Contact</h6>
+
+        <div class="d-flex justify-content-center align-items-center gap-2 mb-3">
+          <i class="bi bi-envelope"></i>
+          <a href="mailto:sales@bluwis.com" class="footer-link-strong">sales@bluwis.com</a>
+        </div>
+
+        <a href="/contact" class="btn btn-outline-light rounded-pill w-50 footer-cta">
+          Contact Us
+        </a>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="footer-divider my-4"></div>
+
+    <!-- Locations (simpler, enterprise) -->
+    <div class="row g-4 text-center">
+      <div class="col-12 col-lg-6">
+        <div class="footer-location">
+          <div class="footer-location__head">
+            <i class="bi bi-geo-alt-fill me-2"></i>
+            <span class="footer-location__title">Global Headquarters</span>
+          </div>
+          <div class="footer-location__sub">Dallas, USA</div>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-6">
+        <div class="footer-location">
+          <div class="footer-location__head">
+            <i class="bi bi-geo-alt-fill me-2"></i>
+            <span class="footer-location__title">Global Innovation &amp; Delivery Center</span>
+          </div>
+          <div class="footer-location__sub">Bangalore, India</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="footer-divider my-4"></div>
+
+    <!-- Bottom row -->
+    <div class="row align-items-center g-3">
+      <div class="col-12 col-lg-8 text-start">
+        <small class="footer-muted">
+          &copy; 2026 BluWis. All rights reserved.
+        </small>
+      </div>
+
+      <div class="col-12 col-lg-4 text-center text-lg-end">
+        <a class="footer-social"
+           href="https://www.linkedin.com/company/bluwis/"
+           target="_blank" rel="noopener"
+           aria-label="BluWis on LinkedIn">
+          <i class="bi bi-linkedin"></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="index.js"></script>
+</html>
